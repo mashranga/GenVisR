@@ -16,6 +16,7 @@
 #' Z is not null.
 #' @return ggplot2 object
 #' @import ggplot2
+#' @export
 
 cnView_buildMain <- function(x, y, z=NULL, chr, CNscale=FALSE, layers=NULL, segmentColor=NULL)
 {
